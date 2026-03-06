@@ -1,0 +1,22 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2024"
+description = "RandomTask cross-platform client application"
+license = "GPL-3.0-or-later"
+authors = ["swordskode"]
+repository = "https://github.com/swordskode/randomtask"
+
+[dependencies]
+core = { path = "../core" }
+crypto = { path = "../crypto" }
+sync = { path = "../sync" }
+storage = { path = "../storage" }
+
+dioxus.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+uuid.workspace = true
+time.workspace = true

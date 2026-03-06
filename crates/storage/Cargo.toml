@@ -1,0 +1,19 @@
+[package]
+name = "storage"
+version = "0.1.0"
+edition = "2024"
+description = "Persistence layer for RandomTask"
+license = "GPL-3.0-or-later"
+authors = ["swordskode"]
+repository = "https://github.com/swordskode/randomtask"
+
+[dependencies]
+core = { path = "../core" }
+crypto = { path = "../crypto" }
+
+serde.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+time.workspace = true
+sqlx.workspace = true
+tracing.workspace = true

@@ -1,0 +1,21 @@
+[package]
+name = "cli"
+version = "0.1.0"
+edition = "2024"
+description = "Administrative and development CLI tools for RandomTask"
+license = "GPL-3.0-or-later"
+authors = ["swordskode"]
+repository = "https://github.com/swordskode/randomtask"
+
+[dependencies]
+core = { path = "../core" }
+crypto = { path = "../crypto" }
+sync = { path = "../sync" }
+storage = { path = "../storage" }
+
+clap.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+uuid.workspace = true

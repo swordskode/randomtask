@@ -1,0 +1,14 @@
+[package]
+name = "core"
+version = "0.1.0"
+edition = "2024"
+description = "Core domain types and models for RandomTask"
+license = "GPL-3.0-or-later"
+authors = ["swordskode"]
+repository = "https://github.com/swordskode/randomtask"
+
+[dependencies]
+serde.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+time.workspace = true
